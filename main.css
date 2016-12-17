@@ -1,0 +1,235 @@
+/***************************************
+Main stylesheet for SoulPrayers.org 
+by David Gaultiere (davidgaultiere.com)
+***************************************/
+
+/****
+Base 
+****/
+
+body {
+  font-family: 'San Francisco', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  background: #d7d7d7;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #777;
+}
+
+p {
+  font-weight: 300;
+  color: #222;
+}
+
+a {
+  color: rgb(0,150,136);
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 2px solid transparent;
+  transition: 0.33s all;
+}
+
+a:hover,
+a:active,
+a:focus {
+  border-color: rgba(0,150,136,0.66);
+}
+
+.clearfix {
+  clear: both;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 7px;
+  padding-bottom: 2px;
+  border-bottom: 3px solid transparent;
+}
+
+@media (min-width: 768px) {
+  nav {
+    float: right;
+  }
+}
+
+
+/******
+Header 
+******/
+
+header {
+  width: calc(100% - 50px);
+  background: rgb(0,150,136);
+  color: white;
+  padding: 20px 25px;
+  text-align: center;
+}
+
+.sitename {
+  font-size: 24px;
+  display: inline-block;
+  margin: 0 7px;
+}
+
+header a {
+  color: rgba(255,255,255,0.67);
+}
+
+header a:hover,
+header a:active,
+header a:focus {
+  color: white;
+  border-color: rgba(255,255,255,0.66);
+}
+
+header a.active {
+  color: rgba(255,255,255,0.9);
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+
+/****
+Main 
+****/
+
+main {
+  background: white;
+  padding: 30px;
+}
+
+main h1:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 50px;
+  }
+}
+
+
+/******
+Index 
+******/
+
+
+
+@media (min-width: 768px) {
+
+}
+
+
+/******
+Single 
+******/
+
+.single h1 {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+
+/******
+Footer 
+******/
+
+footer {
+  width: calc(100% - 50px);
+  color: #333;
+  padding: 25px;
+  text-align: center;
+}
+
+footer a.active {
+  color: #333;
+}
+
+.copyright {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+
+/*******
+Prayers
+*******/
+
+.date {
+  color: #333;
+}
+
+.body
+
+.breathe {
+  font-style: italic;
+}
+
+.prayer {
+}
+
+.prayer .date {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.prayer .body {
+  margin: 70px 0;
+  text-align: center;
+  font-family: 'Baskerville', 'Lucida Grande', serif;
+  font-size: 30px;
+}
+
+.prayer-snippet {
+  margin: 25px 0 40px;
+}
+
+.prayer-snippet .date {
+  margin-bottom: 15px;
+}
+
+.prayer-snippet .body {
+  float: left;
+  display: block;
+  width: calc(100% - 60px);
+  font-family: 'Baskerville', 'Lucida Grande', serif;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.prayer-snippet .read-more {
+  float: left;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0 -2px;
+}
+
+@media (min-width: 768px) {
+
+}
+

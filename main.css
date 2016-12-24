@@ -1,10 +1,10 @@
 /***************************************
-Main stylesheet for SoulPrayers.org 
+Main stylesheet for SoulPrayers.org
 by David Gaultiere (davidgaultiere.com)
 ***************************************/
 
 /****
-Base 
+Base
 ****/
 
 body {
@@ -64,7 +64,7 @@ nav a {
 
 
 /******
-Header 
+Header
 ******/
 
 header {
@@ -73,6 +73,7 @@ header {
   color: white;
   padding: 20px 25px;
   text-align: center;
+  position: fixed;
 }
 
 .sitename {
@@ -106,12 +107,12 @@ header nav {
 
 
 /****
-Main 
+Main
 ****/
 
 main {
   background: white;
-  padding: 30px;
+  padding: 130px 30px 30px;
 }
 
 main h1:first-child {
@@ -127,7 +128,7 @@ main h1:first-child {
 
 
 /******
-Index 
+Index
 ******/
 
 
@@ -138,7 +139,7 @@ Index
 
 
 /******
-Single 
+Single
 ******/
 
 .single h1 {
@@ -151,7 +152,7 @@ Single
 
 
 /******
-Footer 
+Footer
 ******/
 
 footer {
@@ -232,4 +233,3 @@ Prayers
 @media (min-width: 768px) {
 
 }
-

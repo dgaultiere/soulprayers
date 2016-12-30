@@ -10,8 +10,9 @@ Base
 body {
   font-family: 'San Francisco', 'Helvetica Neue', sans-serif;
   font-size: 18px;
-  margin: 0;
+  margin: 0 auto;
   background: #d7d7d7;
+  max-width: 768px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -102,7 +103,15 @@ header nav {
 }
 
 @media (min-width: 768px) {
+  header {
+    padding: 20px 40px;
+    max-width: 688px;
+  }
 
+  .sitename {
+    float: left;
+    margin-top: 5px;
+  }
 }
 
 
@@ -122,7 +131,7 @@ main h1:first-child {
 
 @media (min-width: 768px) {
   main {
-    padding: 50px;
+    padding: 130px 50px 50px;
   }
 }
 
@@ -159,6 +168,7 @@ footer {
   width: calc(100% - 50px);
   color: #333;
   padding: 25px;
+  margin-bottom: 25px;
   text-align: center;
 }
 
@@ -172,7 +182,15 @@ footer a.active {
 }
 
 @media (min-width: 768px) {
+  footer {
+    padding: 25px 40px;
+    max-width: 688px;
+  }
 
+  .copyright {
+    float: left;
+    margin-top: 0;
+  }
 }
 
 
